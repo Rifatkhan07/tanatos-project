@@ -1,0 +1,487 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 7, 2017, 1:40:43 AM
+    Author     : Rifat
+*/
+
+/* header */
+
+.header{
+    background: url(../image/tanatos-bg.jpg);
+    min-height:520px;
+}
+.logo{
+    padding-top: 4em;
+    padding-left: 17em;
+}
+.logo>img{}
+.menu{}
+.menu>p{
+    color: white;
+    padding-top: 3.5em;
+    padding-right: 22em;
+    font-size: 18px;
+    margin: 0;
+}
+.header_contant{
+    padding-top: 9em;
+}
+.header_contant>h1{
+    margin: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+.header_contant>p{
+    margin: 0;
+    color: white;
+    white-space: pre-line;
+    font-size: 19px;
+    letter-spacing: .5px;
+    padding-top: 17px;
+    padding-bottom: 50px;
+}
+.hire{
+}
+.hire>a{}
+.hire>a>button{
+    padding: 7px 50px;
+    color: white;
+    background: transparent;
+    border: 1px solid #5f5f5f;
+    border-radius: 10px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.work{
+}
+.work>a{}
+.work>a>button{
+    padding: 7px 33px;
+    color: white;
+    background: transparent;
+    border: 1px solid #5f5f5f;
+    border-radius: 10px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.hire>a>button:hover{
+    color: white;
+    background: #F5600F;
+}
+.work>a>button:hover{
+    color: white;
+    background: #F5600F;
+}
+
+/* header */
+
+
+/*logo-section*/
+
+.logo_section{
+    padding: 7em 0;
+    min-height: 480px;
+}
+.box:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.box{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    opacity: .7;
+}
+.box>img{}
+.box>h3{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.box>p{
+    padding-top: 6px;
+}
+.white_space{
+    white-space: pre-line;
+}
+
+
+/*logo-section*/
+
+/* sbscribe section */
+
+
+.subscribe_section{
+    background: url(../image/subscribe-bg.png);
+    min-height: 200px;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+.newsletter{
+    padding-top: 6em;
+    padding-left: 38em;
+}
+.newsletter>input{border-radius: 10px;}
+.subscribe{
+    padding-top: 6em;
+}
+.subscribe>a{}
+.subscribe>a>button{
+    padding: 7px 50px;
+    background: #F5600F;
+    border: 1px solid #F5600F;
+    border-radius: 10px;
+    color: white;
+}
+.subscribe>a>button:hover{
+    color: white;
+}
+
+
+/* sbscribe section */
+
+/* our work */
+
+.our_work{}
+.our_work>h1{
+    font-weight: 600;
+    font-size: 35px;
+    padding-top: 2em;
+    color: rgba(0, 0, 0, 0.58);
+    margin: 0;
+}
+.our_work>p{
+    white-space: pre-line;
+    padding-top: 15px;
+    padding-bottom: 6em;
+}
+.work_logo1{}
+.work_logo1>.logo1{
+    padding-bottom: 25px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+
+}
+.work_logo1>.logo1:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.work_logo1>.logo1>img{
+    max-width: 343px;
+}
+
+.work_logo1>.logo2{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.work_logo1>.logo2:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.work_logo1>.logo2>img{
+    max-width: 343px;
+
+
+}
+
+.work_logo1>.logo3{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.work_logo1>.logo3:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.work_logo1>.logo3>img{   
+    max-width: 343px;
+
+}
+
+.work_logo2{
+    padding-bottom: 7em;
+}
+.work_logo2>.logo4{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.work_logo2>.logo4:hover{
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.work_logo2>.logo4>img{    
+    max-width: 343px;
+
+}
+
+.work_logo2>.logo5{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.work_logo2>.logo5:hover{
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.work_logo2>.logo5>img{   
+    max-width: 343px;
+
+}
+
+.work_logo2>.logo6{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.work_logo2>.logo6:hover{
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.work_logo2>.logo6>img{   
+    max-width: 343px;
+
+}
+
+
+/* our work */
+
+/* john section */
+
+.john_section{
+    background: url(../image/john-bg.png);
+    min-height: 375px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.john_section>img{
+    padding-top: 4em;
+}
+.john_section>h4{
+    color: white;
+    white-space: pre-line;
+    font-style: italic;
+    padding-top: 20px;
+    line-height: 30px;
+}
+.john_section>p{
+    color: white;
+    padding-top: 20px;
+}
+
+
+
+/* john section */
+
+
+/* our team section */
+
+.team-contant{}
+.team-contant>h1{
+    font-weight: 600;
+    font-size: 35px;
+    padding-top: 2em;
+    color: rgba(0, 0, 0, 0.58);
+    margin: 0;
+}
+.team-contant>p{
+    white-space: pre-line;
+    padding-top: 15px;
+    padding-bottom: 80px;
+    line-height: 25px;
+}
+.team_logo_part{}
+.logo_part{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    opacity: .7;
+}
+.logo_part:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.logo_part>img{
+    max-width: 210px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+
+}
+.logo_part>img:hover{
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+
+    margin-top: -5px;
+    border-bottom: 5px solid #F5600F;
+    border-radius: 5px;
+}
+.logo_part>h2{
+    font-size: 23px;
+}
+.logo_part>ul{}
+.logo_part>ul>li{
+    height: 25px;
+    background:rgba(0, 0, 0, 0.46);;
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all 1s;
+}
+.logo_part>ul>li:hover{
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    background: blue;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.logo_part>ul>li>a{
+    color: white;
+}
+.logo_part>ul>li>a:hover{
+    color: white;
+
+}
+.logo_part>p{
+    white-space: pre-line;
+    padding-bottom: 4em;
+}
+
+/* our team section */
+
+/* say helo */
+
+.say_hello_section{
+    background: url(../image/say-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+.say_hello{}
+.say_hello>h1{
+    font-weight: 600;
+    font-size: 35px;
+    padding-top: 2em;
+    color: white;
+    margin: 0;
+}
+.say_hello>p{
+    white-space: pre-line;
+    padding-top: 15px;
+    padding-bottom: 80px;
+    line-height: 25px;
+    color: white;
+}
+.form{}
+.form1{}
+.form2{}
+
+.form1>input{}
+.form2>input{}
+.row>textarea{}
+.button{
+    padding-top: 20px;
+}
+.button>button{
+    padding: 7px 50px;
+    background: #F5600F;
+    border: 1px solid #F5600F;
+    border-radius: 10px;
+    color: white;
+}
+.social_icon{}
+.social_icon>ul{
+    padding-top: 20px;
+    padding-left: 19em;
+    letter-spacing: 13px;
+}
+.facebook{
+    height: 30px;
+    background: white;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #2C5B89;
+}
+.twitter{
+    height: 30px;
+    background: white;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #40A9C9;
+}
+.google{
+    height: 30px;
+    background: white;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #FE2A17;
+}
+.behance{
+    height: 30px;
+    background: white;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #329AB5;
+}
+.social_icon>ul>li>a{
+    color: white;
+    font-size: 17px;
+}
+
+
+
+/* say helo */
+
+/* footer*/
+
+.footer{
+    background: #3B444D;
+    min-height: 90px;
+}
+.footer>h6{
+    color: white;
+    padding-top: 27px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.footer>p{
+    color: white;
+    padding-top: 27px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+/* footer*/
